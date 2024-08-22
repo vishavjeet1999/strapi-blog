@@ -406,7 +406,7 @@ export interface ApiBlogBlog extends Schema.CollectionType {
         'plugin::ckeditor.CKEditor',
         {
           output: 'HTML';
-          preset: 'rich';
+          preset: 'light';
         }
       > &
       Attribute.SetPluginOptions<{
