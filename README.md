@@ -4,12 +4,19 @@
 ```
 clone project
 copy .env file to project
-yarn               (install dependencies)
+yarn                        (install dependencies)
+yarn develop                (run in dev mode)
+create user                 (for first time only)
+
+```
+
+# 🚀 how to pull data from cloud to local
+
+
+```
 yarn from-cloud    (fetch data and configration from cloud)
 enter token
-yes  yes
-yarn develop       (run in dev mode)
-
+yes yes
 ```
 
 
@@ -17,7 +24,7 @@ yarn develop       (run in dev mode)
 
 
 ```
-make changes locally
-yarn to-cloud    (fetch data and configration from cloud)
+yarn to-cloud    (push data and configration to cloud)
+enter token
 yes yes
 ```
