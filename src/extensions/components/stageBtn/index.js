@@ -1,6 +1,4 @@
 import React from "react";
-// import { Button } from "@strapi/design-system/Button";
-// import { Filter } from "@strapi/icons";
 
 const ComponentStage = () => {
   async function handleChange() {
