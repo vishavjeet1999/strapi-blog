@@ -2,7 +2,7 @@ import React from "react";
 
 const ComponentMain = () => {
   async function handleChange() {
-    const url = "https://webhook-test.com/2136892cc68c1ea31501b5b238935fb7"
+    const url = "https://api.vercel.com/v1/integrations/deploy/prj_EJKj9f3ITuknNf46aDrwqvzPiTks/WnGCNERaYJ"
     try {
       const response = await fetch(url, { method: "POST" });
       if (response.ok) {
