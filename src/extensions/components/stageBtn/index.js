@@ -16,7 +16,7 @@ const ComponentStage = () => {
     }
   }
     return (
-        <button style={{border:"1px solid lightGrey", borderRadius:"5px", padding:"10px", backgroundColor:"white", fontSize:14}} onClick={handleChange} >
+        <button style={{border:"1px solid lightGrey", borderRadius:"4px", padding:"10px", backgroundColor:"white", fontSize:14}} onClick={handleChange} >
             Stage Build
         </button>
     );
