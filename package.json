@@ -9,8 +9,8 @@
     "build": "strapi build",
     "strapi": "strapi",
     "deploy": "strapi deploy",
-    "from-cloud": "strapi transfer --from https://proud-amusement-b794725d76.strapiapp.com/admin",
-    "to-cloud": "strapi transfer --to https://proud-amusement-b794725d76.strapiapp.com/admin"
+    "from-cloud": "strapi transfer --from https://webapi.bnw.ae/admin/",
+    "to-cloud": "strapi transfer --to https://webapi.bnw.ae/admin/"
   },
   "devDependencies": {},
   "dependencies": {
